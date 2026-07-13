@@ -1,0 +1,15 @@
+[project]
+name = "srforge"
+version = "0.1.0"
+description = "多轮符号回归公式的结构化分析与公式锻造工具"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "sympy",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "xgboost",
+    "optuna",
+    "pysr",
+]
